@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Layout4Activity">
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:text="Top \n Left"
+        android:textAlignment="center"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="20sp"
+        android:layout_alignParentEnd="true"
+        android:textColor="@android:color/white"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:text="Top \n Middle"
+        android:textAlignment="center"
+        android:background="@android:color/holo_orange_dark"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:text="Top \n Right"
+        android:textAlignment="center"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:text="Center"
+        android:textAlignment="center"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:id="@+id/center"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:text="Right"
+        android:textAlignment="center"
+        android:background="@android:color/holo_orange_dark"
+        android:textSize="20sp"
+        android:layout_below="@+id/center"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:text="Left"
+        android:textAlignment="center"
+        android:background="@android:color/holo_orange_dark"
+        android:textSize="20sp"
+        android:layout_below="@+id/center"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Bottom of Screen"
+        android:textAlignment="center"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>

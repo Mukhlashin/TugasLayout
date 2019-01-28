@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:text="Layout1"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:onClick="layout1"/>
+
+    <Button
+        android:id="@+id/layout_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:text="Layout2"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:onClick="layout2"/>
+
+    <Button
+        android:id="@+id/layout_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:text="Layout3"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:onClick="layout3"/>
+
+    <Button
+        android:id="@+id/layout_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/colorPrimary"
+        android:text="Layout4"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:onClick="layout4"/>
+
+</LinearLayout>
